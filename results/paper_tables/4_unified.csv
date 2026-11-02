@@ -1,0 +1,9 @@
+method,condition,status,image_auroc,pixel_auroc,aupro,selected_features,memory_bytes,detector_seconds_per_image
+fewshot,original,pending,,,,,,
+fewshot,shifted,pending,,,,,,
+illumination,original,pending,,,,,,
+illumination,shifted,pending,,,,,,
+adaptive,original,pending,,,,,,
+adaptive,shifted,pending,,,,,,
+unified,original,pending,,,,,,
+unified,shifted,pending,,,,,,

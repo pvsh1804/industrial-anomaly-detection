@@ -1,0 +1,1 @@
+These images and smoke.json come from synthetic procedural textures with a real ImageNet-pretrained WideResNet-50-2 backbone. They verify execution, not research accuracy. Do not present them as MVTec results.

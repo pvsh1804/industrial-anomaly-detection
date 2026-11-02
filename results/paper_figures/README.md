@@ -1,0 +1,1 @@
+Real-data paper figures are pending MVTec AD availability. The experiment runner writes measured visualizations here under its configured output directory. Synthetic wiring-check figures are isolated in ../validation/ and are not paper evidence.

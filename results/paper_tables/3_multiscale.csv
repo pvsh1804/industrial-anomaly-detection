@@ -1,0 +1,11 @@
+method,condition,status,image_auroc,pixel_auroc,aupro,selected_features,memory_bytes,detector_seconds_per_image
+layer2,original,pending,,,,,,
+layer2,shifted,pending,,,,,,
+layer3,original,pending,,,,,,
+layer3,shifted,pending,,,,,,
+multiscale,original,pending,,,,,,
+multiscale,shifted,pending,,,,,,
+spec,original,pending,,,,,,
+spec,shifted,pending,,,,,,
+adaptive,original,pending,,,,,,
+adaptive,shifted,pending,,,,,,
