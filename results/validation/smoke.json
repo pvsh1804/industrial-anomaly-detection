@@ -1,0 +1,39 @@
+{
+  "data": "synthetic procedural textures; not MVTec and not paper evidence",
+  "models": {
+    "patchcore": {
+      "finite_score": true,
+      "selected_features": 1536,
+      "memory_bytes": 319488,
+      "prediction_with_explanation_seconds": 0.01186172699999588
+    },
+    "fewshot": {
+      "finite_score": true,
+      "selected_features": 32,
+      "memory_bytes": 6656,
+      "prediction_with_explanation_seconds": 0.0023874189998878137
+    },
+    "illumination": {
+      "finite_score": true,
+      "selected_features": 13,
+      "memory_bytes": 2704,
+      "prediction_with_explanation_seconds": 0.0022785650000969326
+    },
+    "adaptive": {
+      "finite_score": true,
+      "selected_features": 64,
+      "memory_bytes": 8320,
+      "prediction_with_explanation_seconds": 0.0014024679999238288
+    },
+    "unified": {
+      "finite_score": true,
+      "selected_features": 59,
+      "memory_bytes": 8060,
+      "prediction_with_explanation_seconds": 0.0010733930000697
+    }
+  },
+  "python": "3.11.17",
+  "torch": "2.5.1+cpu",
+  "weights": "Wide_ResNet50_2_Weights.IMAGENET1K_V1",
+  "uncached_query_feature_seconds": 0.003832839999859061
+}

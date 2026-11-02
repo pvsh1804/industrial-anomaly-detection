@@ -1,0 +1,28 @@
+dataset: mvtec
+data_root: data/mvtec_ad
+category: bottle
+shots: 4
+calibration_images: 4
+seed: 42
+image_size: 224
+device: cpu
+threads: 2
+cache: cache
+output: results/bottle_k4_seed42
+checkpoint_root: checkpoints
+# null evaluates the full official test split. A number limits each subtype.
+max_test_images: null
+conditions: [original, shifted]
+methods: [patchcore, fewshot, illumination, adaptive, unified]
+max_fpr: 0.3
+model:
+  selected: 64
+  graph_samples: 512
+  neighbors: 10
+  coreset_ratio: 0.05
+  max_bank: 128
+  variance_quantile: 0.1
+  correlation_threshold: 0.95
+  pair_weight: 1.0
+  temperature: 0.1
+  smooth_sigma: 4.0

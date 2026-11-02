@@ -1,0 +1,34 @@
+cache: cache
+calibration_images: 4
+category: candle
+checkpoint_root: checkpoints
+conditions:
+- original
+- shifted
+data_root: data/visa
+dataset: visa
+device: cpu
+image_size: 224
+max_fpr: 0.3
+max_test_images: null
+methods:
+- patchcore
+- fewshot
+- illumination
+- adaptive
+- unified
+model:
+  coreset_ratio: 0.05
+  correlation_threshold: 0.95
+  graph_samples: 512
+  max_bank: 128
+  neighbors: 10
+  pair_weight: 1.0
+  selected: 64
+  smooth_sigma: 4.0
+  temperature: 0.1
+  variance_quantile: 0.1
+output: results/visa_k4_seed42
+seed: 42
+shots: 4
+threads: 2

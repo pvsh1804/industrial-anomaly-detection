@@ -1,0 +1,9 @@
+method,condition,status,image_auroc,pixel_auroc,aupro,selected_features,memory_bytes,detector_seconds_per_image
+patchcore,original,pending,,,,,,
+patchcore,shifted,pending,,,,,,
+laplacian,original,pending,,,,,,
+laplacian,shifted,pending,,,,,,
+consistency,original,pending,,,,,,
+consistency,shifted,pending,,,,,,
+illumination,original,pending,,,,,,
+illumination,shifted,pending,,,,,,
